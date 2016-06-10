@@ -1,0 +1,7 @@
+local_settings.py
+*.pyc
+node_modules/
+.DS_Store
+media/lib/
+static/lib/
+static/admin/

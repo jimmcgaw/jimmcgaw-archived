@@ -1,0 +1,42 @@
+{
+  "name": "jimmcgaw",
+  "authors": [
+    "jimmcgaw <jpmcgaw@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "less/font-awesome.less",
+        "css/font-awesome.css",
+        "scss/font-awesome.scss"
+      ]
+    }
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 2"
+  }
+}
