@@ -21,8 +21,9 @@ gulp.task('inject', function(){
 
     var injectSrc = gulp.src([
       './static/js/**/*.js',
+      './static/orbit/js/main.js',
       './static/css/**/*.css',
-      './static/orbit/css/styles.css',
+      './static/orbit/css/styles.css'
     ], {read: false});
 
     var injectOptions = {

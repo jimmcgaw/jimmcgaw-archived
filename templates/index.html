@@ -3,13 +3,13 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Responsive Resume/CV Template for Developers</title>
+    <title>Jim McGaw's Homepage</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resume homepage for Jim McGaw">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="/static/images/dinosaur.ico">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- bower:css -->
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.css" />
@@ -39,41 +39,38 @@
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: hello@jimmcgaw.com">hello@jimmcgaw.com</a></li>
                     <!-- <li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li> -->
-                    <li class="website"><i class="fa fa-pencil-square"></i><a href="http://blog.jimmcgaw.com/" target="_blank">blog.jimmcgaw.com</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/jimmcgaw" target="_blank">linkedin.com/in/jimmcgaw</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/jimmcgaw" target="_blank">github.com/jimmcgaw</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/jimmcgaw" target="_blank">Jim on LinkedIn</a></li>
+                    <li class="website"><i class="fa fa-pencil-square"></i><a href="http://blog.jimmcgaw.com/" target="_blank">Jim McGaw's Blog</a></li>
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/Jim_McGaw" target="_blank">@Jim_McGaw</a></li>
                 </ul>
             </div><!--//contact-container-->
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
-                    <h4 class="degree">MSc in Computer Science</h4>
-                    <h5 class="meta">University of London</h5>
-                    <div class="time">2011 - 2012</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">BSc in Applied Mathematics</h4>
-                    <h5 class="meta">Bristol University</h5>
-                    <div class="time">2007 - 2011</div>
+                    <h4 class="degree">BA in Accounting</h4>
+                    <h5 class="meta">Michigan State University</h5>
+                    <div class="time">2000 - 2004</div>
                 </div><!--//item-->
             </div><!--//education-container-->
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                  <li>Coding</li>
+                  <li>Machine Learning</li>
+                  <li>Reading</li>
+                  <li>Social Justice</li>
+                  <li>Hiking</li>
+                </ul>
+            </div><!--//interests-->
 
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
                     <li>English <span class="lang-desc">(Native)</span></li>
-                    <li>French <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
-                </ul>
-            </div><!--//interests-->
-
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Climbing</li>
-                    <li>Snowboarding</li>
-                    <li>Cooking</li>
+                    <li>French <span class="lang-desc">(Un peu)</span></li>
+                    <li>Spanish <span class="lang-desc">(Un poquito)</span></li>
                 </ul>
             </div><!--//interests-->
 
@@ -84,7 +81,22 @@
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                    <p>I have been a full-stack web engineer for the last ten years. I
+                      have experience with JavaScript
+                      (both vanilla JS and frameworks like jQuery & Underscore.js), ES6,
+                      HTML5, CSS3, React.js, Angular.js, Backbone.js, Python, Django, MySQL,
+                      Bootstrap, and SASS.</p>
+
+                      <p>I'm comfortable working in a Unix-based environment
+                      (OS X, or Linux) to accomplish things from the command line. In tackling
+                      problems in my work, I'm adept at coding up a custom solution or finding
+                      a library to do the job online, as the situation requires. My node.js experience
+                      is centered around development tooling with Grunt, gulp, and webpack. I am
+                      familiar with machine learning techniques and frameworks. I am most interested
+                      in building performant web application UIs using the latest and greatest
+                      set of open source technologies.</p>
+
+                      <p>I'm also the author of the Apress book <a href="http://www.amazon.com/dp/1430225351/" target="_blank">Beginning Django E-Commerce</a>.</p>
                 </div><!--//summary-->
             </section><!--//section-->
 
@@ -94,27 +106,39 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Lead Developer</h3>
-                            <div class="time">2015 - Present</div>
+                            <h3 class="job-title">Software Engineer</h3>
+                            <div class="time">June 2012 - March 2016</div>
                         </div><!--//upper-row-->
-                        <div class="company">Startup Hubs, San Francisco</div>
+                        <div class="company">RightScale, Santa Barbara</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <p>I served as a software engineer; I did full-stack web development with
+                          open source technologies. I was on a team responsible for maintaining and
+                          extending one of the company's core SaaS products, a web-based platform for
+                          multi-cloud computing management. I was a generalist, tackling problems in
+                          whatever domain was needed. My daily work would take me from mild MySQL
+                          troubleshooting to API development in Ruby to developing front-end web
+                          solutions in JavaScript. I worked closely with designers, UX, product
+                          management, and other developers in order to develop and deploy final
+                          solutions. My primary focus throughout the majority of my time here was
+                          on front-end engineering.</p>
                     </div><!--//details-->
                 </div><!--//item-->
 
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Senior Software Engineer</h3>
-                            <div class="time">2014 - 2015</div>
+                            <h3 class="job-title">Software Developer</h3>
+                            <div class="time">January 2012 - May 2012</div>
                         </div><!--//upper-row-->
-                        <div class="company">Google, London</div>
+                        <div class="company">PTM Web Engineering, Santa Barbara</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        <p>I worked as a full-stack engineer for a web consultancy
+                          that developed custom websites using Python, Django, and JavaScript
+                          libraries for clients. I was responsible for working directly with
+                          our Account Manager in order to understand requirements, and to deliver
+                          solutions in a timely fashion.</p>
 
                     </div><!--//details-->
                 </div><!--//item-->
@@ -122,13 +146,18 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">UI Developer</h3>
-                            <div class="time">2012 - 2014</div>
+                            <h3 class="job-title">Web Developer</h3>
+                            <div class="time">July 2011 - March 2012</div>
                         </div><!--//upper-row-->
-                        <div class="company">Amazon, London</div>
+                        <div class="company">AppFolio, Santa Barbara</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        <p>AppFolio offers a SaaS-based property management platform.
+                          I did not work on the core product, but instead joined the
+                          marketing department as a web developer for the websites they
+                          used for marketing purposes. I developed and extended these sites,
+                          as well as developing custom solutions for the marketing department
+                          in their sales pipelines in Marketo and Sales Force.</p>
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -137,24 +166,17 @@
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
                 <div class="intro">
-                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                    <p>For a complete list of stuff I've been coding lately, see <a href="http://github.com/jimmcgaw">my Github page</a>.
+                    Here are a few projects that I'd like to showcase.</p>
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
+                    <span class="project-title"><a href="http://github.com/jimmcgaw/gleaner" target="_blank">Gleaner</a></span> - <span class="project-tagline">A web-based system to help those gleaning
+                    produce from farms and residential orchards. I'm currently developing this for the Foodbank of Santa Barbara.</span>
 
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> -
-                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
+                    <span class="project-title"><a href="http://github.com/jimmcgaw/stemblog" target="_blank">STEM Blog</a></span> -
+                    <span class="project-tagline">A small blogging platform intended for those in academia who want to use TeX formatting and peer review.</span>
                 </div><!--//item-->
             </section><!--//section-->
 
@@ -164,7 +186,7 @@
                     <div class="item">
                         <h3 class="level-title">Python &amp; Django</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
+                            <div class="level-bar-inner" data-level="90%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
@@ -172,15 +194,7 @@
                     <div class="item">
                         <h3 class="level-title">Javascript &amp; jQuery</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Angular</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
+                            <div class="level-bar-inner" data-level="90%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
@@ -188,7 +202,31 @@
                     <div class="item">
                         <h3 class="level-title">HTML5 &amp; CSS</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">React</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Angular</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">node.js</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="40%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
@@ -196,15 +234,7 @@
                     <div class="item">
                         <h3 class="level-title">Ruby on Rails</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Sketch &amp; Photoshop</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="60%">
+                            <div class="level-bar-inner" data-level="30%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
@@ -227,12 +257,8 @@
     <script src="/static/lib/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- inject:js -->
+    <script src="/static/orbit/js/main.js"></script>
     <!-- endinject -->
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
